@@ -4,17 +4,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const root = document.documentElement;
   const themeToggleBtn = document.getElementById('theme-toggle');
-  const themeToggleLabel = document.getElementById('theme-toggle-label');
 
   const applyTheme = (theme) => {
     if (theme === 'dark') {
       root.classList.add('dark');
       themeToggleBtn?.setAttribute('aria-pressed', 'true');
-      if (themeToggleLabel) themeToggleLabel.textContent = 'Modo claro';
     } else {
       root.classList.remove('dark');
       themeToggleBtn?.setAttribute('aria-pressed', 'false');
-      if (themeToggleLabel) themeToggleLabel.textContent = 'Modo oscuro';
     }
   };
 

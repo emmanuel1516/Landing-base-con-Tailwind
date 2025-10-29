@@ -1,0 +1,40 @@
+{
+  "cSpell.language": "es,es-ES,en",
+  "cSpell.locale": "es-ES",
+  "cSpell.enabled": true,
+  "cSpell.diagnosticLevel": "Hint",
+  "cSpell.enabledFileTypes": {
+    "*": false,
+    "plaintext": true,
+    "markdown": true,
+    "html": true,
+    "css": true,
+    "javascript": true,
+    "json": true
+  },
+  "cSpell.userWords": [
+    "Tailwind",
+    "Formspree",
+    "Netlify",
+    "Vercel",
+    "CTA",
+    "SEO",
+    "Landing",
+    "Marca",
+    "Inter",
+    "darkMode",
+    "Autoprefixer",
+    "Plausible",
+    "HubSpot",
+    "Mailchimp"
+  ],
+  "cSpell.ignorePaths": [
+    "**/node_modules/**",
+    "**/.git/**",
+    "styles.css",
+    "package-lock.json",
+    "dist",
+    "build"
+  ],
+  "cSpell.allowCompoundWords": true
+}

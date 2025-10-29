@@ -1,0 +1,16 @@
+{
+  "name": "model-landing-page",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build:css": "npx tailwindcss -i ./src/input.css -o ./styles.css --min",
+    "dev:css": "npx tailwindcss -i ./src/input.css -o ./styles.css --watch",
+    "serve": "http-server -p 5173 -c-1 .",
+    "dev": "concurrently \"npm run dev:css\" \"npm run serve\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0",
+    "http-server": "^14.1.1",
+    "tailwindcss": "^3.4.14"
+  }
+}
